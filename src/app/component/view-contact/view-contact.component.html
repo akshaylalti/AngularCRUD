@@ -1,0 +1,54 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <p class="h3 fw-bold text-danger">View Contact</p>
+            <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa deserunt
+                dolores
+                ea eaque eligendi invetore labore molestiae odio, odit quaerat quisquam quo repudiandae rerum sunt
+                tenetur velit veniam
+                veritatis.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- spinner -->
+<div *ngIf="loading">
+    <app-spinner></app-spinner>
+</div>
+
+<!-- error massage -->
+<div *ngIf="!loading && errorMessage">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="h4 text-danger fw-bold"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Details -->
+<div *ngIf="!loading && isNotEmpty()" class="container">
+    <div class="row align-items-center">
+        <div class="col-sm-4">
+            <img alt="" class="contact-img-big" [src]="contact.photo">
+        </div>
+        <div class="col-sm-6">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-danger">Name : <span class="fw-bold">{{contact.name}}</span></li>
+                <li class="list-group-item list-group-item-danger">Email: <span class="fw-bold">{{contact.email}}</span></li>
+                <li class="list-group-item list-group-item-danger">Mobile: <span class="fw-bold">{{contact.mobile}}</span></li>
+                <li class="list-group-item list-group-item-danger">Title : <span class="fw-bold">{{contact.title}}</span></li>
+                <li class="list-group-item list-group-item-danger">Group Name: <span class="fw-bold">{{group.id}}</span></li>
+                <li class="list-group-item list-group-item-danger">Company: <span class="fw-bold">{{contact.company}}</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <a class="btn btn-danger" routerLink="/">
+                <i class="fa fa-arrow-alt-circle-left">Back</i>
+            </a>
+        </div>
+    </div>
+</div>

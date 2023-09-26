@@ -1,0 +1,60 @@
+{
+  "contacts": [
+    {
+      "name": "Akshay Chauhan",
+      "photo": "https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/User-Executive-Green-icon.png",
+      "mobile": "9090909090",
+      "email": "akshaytest@gmail.com",
+      "company": "HCL Technologies",
+      "title": "Angular Developer",
+      "groupId": "2",
+      "id": "kLt-bJF"
+    },
+    {
+      "name": "Manu Chouhan",
+      "mobile": 9883887311,
+      "photo": "https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/256/Office-Girl-icon.png",
+      "email": "manu@gmail.com",
+      "company": "HCL",
+      "title": "Software Developer",
+      "id": "n3hKO3e",
+      "groupId": "2"
+    },
+    {
+      "name": "Aniket ",
+      "photo": "https://icons.iconarchive.com/icons/avosoft/toolbar/256/male-icon.png",
+      "email": "akshayakc94@gmail.com",
+      "mobile": 232562555,
+      "company": "Wipro",
+      "title": "Software Developer",
+      "groupId": "2",
+      "id": "fm6yBnl"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "summy"
+    }
+  ]
+}
